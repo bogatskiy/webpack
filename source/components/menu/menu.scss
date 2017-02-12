@@ -1,9 +1,9 @@
-ul {
-  padding: 10px;
-  background-color: red;
-  li {
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding:5px;
+ul{
+  border: 1px solid #777;
+  //background: url("menu.svg") no-repeat;
+  li{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #bbb;
   }
 }

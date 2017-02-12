@@ -7,11 +7,16 @@
   "scripts": {
     "start": "webpack-dev-server  --port 8080 --env development",
     "build": "webpack --env production",
-    "serv": "static build"
+    "serv": "static build",
+    "test:lint": "eslint . --cache"
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
+    "eslint": "^3.15.0",
+    "eslint-loader": "^1.6.1",
     "extract-text-webpack-plugin": "^2.0.0-beta",
+    "favicons-webpack-plugin": "^0.0.7",
+    "file-loader": "^0.10.0",
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "4.0.0",
     "node-static": "^0.7.9",
@@ -19,11 +24,13 @@
     "pug-loader": "^2.3.0",
     "sass-loader": "^5.0.1",
     "style-loader": "^0.13.1",
+    "stylelint-webpack-plugin": "^0.5.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0",
     "webpack-merge": "^2.6.1"
   },
   "dependencies": {
+    "jquery": "^3.1.1",
     "normalize.css": "^5.0.0"
   }
 }
